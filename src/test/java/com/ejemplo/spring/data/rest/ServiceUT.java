@@ -3,6 +3,7 @@ package com.ejemplo.spring.data.rest;
 import static org.hamcrest.CoreMatchers.any;
 import static org.hamcrest.CoreMatchers.anything;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -50,6 +51,11 @@ public class ServiceUT {
 		//Validar
 		assertEquals(facturaConId.getId(), resultadoObtenido.getId());
 		
+	}
+	
+	@Test
+	public void testConProblema() {
+		assertTrue(false);
 	}
 
 }
